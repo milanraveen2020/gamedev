@@ -6,17 +6,17 @@ text-align:right ;
 padding-top: 10px ;
 padding-bottom: 10px ;
 span{
-    width: 40px ;
-    height: 40px ;
+    width: 30px ;
+    height: 30px ;
     display: inline-flex ;
     margin-right: 5px ;
     background: #2E2F3A;
     align-items: center;
     justify-content:center ;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 16px;
     color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 span:hover{
     cursor: pointer;
