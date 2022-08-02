@@ -20,6 +20,7 @@ padding: 15px 0 ;
 const SelectSearch = styled(Select)`
     background-color:#8A8C98;
     border-radius: 10px 0px 0px 10px !important;
+    min-width: 199px ;
     /* border: 1px solid #8A8C98 !important; */
 .ant-select-selector{
     background-color: transparent !important;
@@ -38,7 +39,7 @@ input{
 const SearchInput = styled.div`
 display: inline-block;
 vertical-align:top ;
-width: calc(100% - 90px);
+width: calc(100% - 200px);
 .ant-input-group-addon{
     background: transparent !important ;
     border-radius: 0 !important ;
