@@ -1,28 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import '~antd/dist/antd.css';
 
 @font-face {
-  font-family: Akira-Super;
-  src: url('./assets/fonts/akira.woff') format("woff");
+  font-family: Kiro;
+  src: url('./assets/fonts/Kiro-Bold.woff') format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 
-
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
+  background: #252733;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-h1,
-h2 {
-  font-family: Akira-Super;
 }
 
 
